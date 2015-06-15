@@ -14,6 +14,8 @@
 		D6FBE6791B2E4A26008F542E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FBE6781B2E4A26008F542E /* Images.xcassets */; };
 		D6FBE67C1B2E4A26008F542E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FBE67A1B2E4A26008F542E /* LaunchScreen.xib */; };
 		D6FBE6881B2E4A26008F542E /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FBE6871B2E4A26008F542E /* FunFactsTests.m */; };
+		D6FBE6931B2EA9D1008F542E /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FBE6921B2EA9D1008F542E /* FactBook.m */; };
+		D6FBE6961B2F2D4C008F542E /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FBE6951B2F2D4C008F542E /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		D6FBE6811B2E4A26008F542E /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FBE6861B2E4A26008F542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6FBE6871B2E4A26008F542E /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		D6FBE6911B2EA9D1008F542E /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		D6FBE6921B2EA9D1008F542E /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		D6FBE6941B2F2D4C008F542E /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		D6FBE6951B2F2D4C008F542E /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +91,11 @@
 				D6FBE6701B2E4A26008F542E /* AppDelegate.m */,
 				D6FBE6721B2E4A26008F542E /* ViewController.h */,
 				D6FBE6731B2E4A26008F542E /* ViewController.m */,
+				D6FBE6911B2EA9D1008F542E /* FactBook.h */,
+				D6FBE6921B2EA9D1008F542E /* FactBook.m */,
 				D6FBE6751B2E4A26008F542E /* Main.storyboard */,
+				D6FBE6941B2F2D4C008F542E /* ColorWheel.h */,
+				D6FBE6951B2F2D4C008F542E /* ColorWheel.m */,
 				D6FBE6781B2E4A26008F542E /* Images.xcassets */,
 				D6FBE67A1B2E4A26008F542E /* LaunchScreen.xib */,
 				D6FBE66B1B2E4A26008F542E /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				D6FBE6741B2E4A26008F542E /* ViewController.m in Sources */,
 				D6FBE6711B2E4A26008F542E /* AppDelegate.m in Sources */,
+				D6FBE6931B2EA9D1008F542E /* FactBook.m in Sources */,
 				D6FBE66E1B2E4A26008F542E /* main.m in Sources */,
+				D6FBE6961B2F2D4C008F542E /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
